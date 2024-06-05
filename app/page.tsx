@@ -5,9 +5,9 @@ import Dsapp from './components/Dsapp';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 container">
       <div className="w-full max-w-5xl flex flex-col items-center lg:flex-row lg:justify-between px-8">
-        <h1 className="text-4xl font-bold text-center mb-4 lg:mb-0 lg:text-left lg:flex-1">
+        <h1 className="text-4xl font-bold text-center mt-6 mb-4 lg:mb-0 lg:text-left lg:flex-1">
           The Struggle for Homeownership: Economic Indicators and Their Personal Impact in an Era of Inflation
         </h1>
         <div className="flex items-center justify-center lg:justify-end lg:flex-1 space-x-4">
@@ -24,7 +24,7 @@ export default function Home() {
             <Image
               src="/linkedinpic.png"
               alt="LinkedIn Logo"
-              width={50}  // Made the logo smaller
+              width={50}
               height={12}
               priority
             />
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
 
       <Divider />
-        <Dsapp />
+      <Dsapp />
       <Divider />
       <section className="prose dark:prose-dark mx-auto mt-8">
         <h2 className="text-2xl underline mb-8 mt-4 font-semibold">Sources</h2>
