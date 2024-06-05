@@ -1,7 +1,7 @@
 # GDP and GDP adjusted for Inflation, overlayed with Housing Prices
 
 ## Featured Notebooks/Analysis/Deliverables
-([https://gdp--ds-gdp-inflation-vs-new-homes.us-central1.hosted.app/]Firebase Hosted React App])
+([https://gdp--ds-gdp-inflation-vs-new-homes.us-central1.hosted.app/]Firebase Hosted React App)
 
 
 #### -- Project Status: [Completed]
