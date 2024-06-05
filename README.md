@@ -3,6 +3,8 @@
 ## Featured Notebooks/Analysis/Deliverables
 https://gdp--ds-gdp-inflation-vs-new-homes.us-central1.hosted.app/
 
+https://github.com/thebigduck/GDP-v-HousingPrices-
+
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
