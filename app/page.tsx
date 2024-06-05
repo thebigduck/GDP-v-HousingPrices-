@@ -57,7 +57,7 @@ export default function Home() {
               <a href="https://fred.stlouisfed.org/series/MSPNHSUS" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Median New House Prices</a>: These figures reflect the increasing difficulty for individuals to afford homes, highlighting the disparity between house prices and average incomes.
             </li>
             <li>
-              <a href="https://fred.stlouisfed.org/series/GDP" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">GDP per Capita</a>: This indicator, while showing economic growth, often masks the stagnating purchasing power of the average citizen.
+              <a href="https://fred.stlouisfed.org/series/GDP" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">GDP</a>: This indicator, while showing economic growth, often masks the stagnating purchasing power of the average citizen.
             </li>
             <li>
               <a href="https://fred.stlouisfed.org/series/A939RC0Q052SBEA" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Real GDP per Capita</a>: When adjusted for inflation, this metric reveals the true economic standing of individuals, providing a clearer picture of financial health and stability.

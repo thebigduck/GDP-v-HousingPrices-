@@ -38,8 +38,8 @@ Historical Context
 Data Compilation The study examines data from the Federal Reserve Economic Data (FRED) database, with a focus on:
 
 Median New House Prices ([https://fred.stlouisfed.org/series/MSPNHSUS](https://fred.stlouisfed.org/series/MSPNHSUS)): A reflection of the increasing difficulty for individuals to afford homes.
-GDP per Capita ([https://fred.stlouisfed.org/series/GDP](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)): An indicator that, despite showing growth, often masks the stagnating purchasing power of the average citizen.
-Real GDP per Capita ([https://fred.stlouisfed.org/series/A939RC0Q052SBEA](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)): A metric that, when adjusted for inflation, reveals the true economic standing of individuals.
+GDP  ([https://fred.stlouisfed.org/series/GDP](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)): Benchmark for our economic prospertiy as a country.
+Real GDP per Capita ([https://fred.stlouisfed.org/series/A939RC0Q052SBEA](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)): A metric that accounts for inflation, which reveals the true economic standing of individuals.
 Methodological Framework
 
 Data Contextualization: Adjusting historical data for inflation to align with the real-world experience of individuals.
