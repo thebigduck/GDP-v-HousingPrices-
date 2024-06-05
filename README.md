@@ -1,4 +1,8 @@
-# GDP and GDP adjusted for Inflation, overlayed with Housing Prices 
+# GDP and GDP adjusted for Inflation, overlayed with Housing Prices
+
+## Featured Notebooks/Analysis/Deliverables
+
+
 
 #### -- Project Status: [Completed]
 
@@ -19,7 +23,7 @@ The purpose of this project is to plot for comparative insights the GDP and GDP 
 * Next.js
 * Lookerstudio
 
-## Featured Notebooks/Analysis/Deliverables
+
 
 ## Project Description
 The Struggle for Homeownership: Economic Indicators and Their Personal Impact in an Era of Inflation
