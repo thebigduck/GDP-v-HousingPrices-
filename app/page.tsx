@@ -66,7 +66,7 @@ export default function Home() {
               <a href="https://fred.stlouisfed.org/series/FYGFGDQ188S" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Debt: Public Debt as % of GDP</a>: Public debt can be an indicator of how much public spending is funded by borrowing instead of taxes
             </li>
             <li>
-              <a href="https://fred.stlouisfed.org/series/GFDEBTN" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Debt - Public</a>: This includes all U.S. Treasury securities held by domestic and international investors, including individuals, corporations, and state or local governments. This category has shown the most substantial growth, particularly after economic crises.
+              <a href="https://fred.stlouisfed.org/series/GFDEBTN" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Debt - Public</a>: This includes all U.S. Treasury securities held by individuals, corporations, and state or local governments. This category has shown the most substantial growth, particularly after economic crises.
             </li>
             <li>
               <a href="https://fred.stlouisfed.org/series/FDHBFIN" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Debt - International</a>: This category includes debt held by foreign governments and international investors. It reflects the global trust in U.S. financial stability but also indicates the country&apos;s reliance on foreign investment.When adjusted for inflation, this metric reveals the true economic standing of individuals, providing a clearer picture of financial health and stability.
