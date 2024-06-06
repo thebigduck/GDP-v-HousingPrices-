@@ -43,6 +43,18 @@ GDP  ([https://fred.stlouisfed.org/series/GDP](https://fred.stlouisfed.org/serie
 Real GDP per Capita ([https://fred.stlouisfed.org/series/A939RC0Q052SBEA](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)): A metric that accounts for inflation, which reveals the true economic standing of individuals.
 Methodological Framework
 
+Federal Debt Types:
+
+Debt - Foreign and International Investors: This category includes debt held by foreign governments and international investors. It reflects the global trust in U.S. financial stability but also indicates the country's reliance on foreign investment.
+Debt - Federal Reserve: Debt held by the Federal Reserve includes securities bought as part of monetary policy operations. This debt type can influence interest rates and liquidity in the financial system.
+Debt - Public: This includes all U.S. Treasury securities held by domestic and international investors, including individuals, corporations, and state or local governments. This category has shown the most substantial growth, particularly after economic crises.
+
+* [https://fred.stlouisfed.org/series/FDHBFIN](https://fred.stlouisfed.org/series/FDHBFIN)
+* [https://fred.stlouisfed.org/series/GFDEGDQ188S](https://fred.stlouisfed.org/series/GFDEGDQ188S)
+* [https://fred.stlouisfed.org/series/GFDEBTN](https://fred.stlouisfed.org/series/GFDEBTN)
+* [https://fred.stlouisfed.org/series/FDHBFRBN](https://fred.stlouisfed.org/series/FDHBFRBN)
+
+
 Data Contextualization: Adjusting historical data for inflation to align with the real-world experience of individuals.
 Exploratory Inquiry: Analyzing the disconnect between GDP, Real GDP, and the practicality of homeownership, mindful of the individual’s plight.
 Key Findings
@@ -60,8 +72,12 @@ Final Reflections Our examination of economic indicators, in relation to housing
 My sources are :
 
 * [https://fred.stlouisfed.org/series/MSPNHSUS](https://fred.stlouisfed.org/series/MSPNHSUS)
-* [https://fred.stlouisfed.org/series/GDP](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)
+* [https://fred.stlouisfed.org/series/GDP](https://fred.stlouisfed.org/series/GDP)
 * [https://fred.stlouisfed.org/series/A939RC0Q052SBEA](https://fred.stlouisfed.org/series/A939RX0Q048SBEA)
+* [https://fred.stlouisfed.org/series/FDHBFIN](https://fred.stlouisfed.org/series/FDHBFIN)
+* [https://fred.stlouisfed.org/series/GFDEGDQ188S](https://fred.stlouisfed.org/series/GFDEGDQ188S)
+* [https://fred.stlouisfed.org/series/GFDEBTN](https://fred.stlouisfed.org/series/GFDEBTN)
+* [https://fred.stlouisfed.org/series/FDHBFRBN](https://fred.stlouisfed.org/series/FDHBFRBN)
 
 ## Getting Started
 

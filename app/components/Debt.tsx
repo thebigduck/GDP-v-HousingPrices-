@@ -9,17 +9,17 @@ const iframeStyles: CSSProperties = {
   right: "16px"
 };
 
-const Dsapp: React.FC = () => {
+const Debt: React.FC = () => {
   return (
     <div className="iframe-container">
       <iframe
-        src="https://lookerstudio.google.com/embed/reporting/98d8d49d-105a-4409-b2df-50ba04aa2f57/page/MRB2D"
+        src="https://lookerstudio.google.com/embed/reporting/d4d458ff-2978-4734-b4e2-838f889941f3/page/OeQ2D"
         style={iframeStyles}
       />
     </div>
   );
 };
 
-export default Dsapp;
+export default Debt;
 
 
