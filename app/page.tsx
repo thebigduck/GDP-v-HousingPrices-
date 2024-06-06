@@ -52,7 +52,7 @@ export default function Home() {
             <p>
               The study examines comprehensive data from the Federal Reserve Economic Data (FRED) database. This data provides crucial insights into the dynamics between economic indicators and homeownership. Key data points include:
             </p>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside mt-2">
             <li>
               <a href="https://fred.stlouisfed.org/series/MSPNHSUS" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-300">Median New House Prices</a>: These figures reflect the increasing difficulty for individuals to afford homes, highlighting the disparity between house prices and average incomes.
             </li>
