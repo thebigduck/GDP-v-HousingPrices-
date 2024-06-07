@@ -1,22 +1,21 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
+import { ReactNode } from "react";
+import { Metadata } from "next";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "GDP vs New Homeprices",
+  title: "Debt and GDP",
   description: "By: Anderson McCord",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className={`${inter.className} container`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

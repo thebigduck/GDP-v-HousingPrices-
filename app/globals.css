@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "flowbite";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,6 +17,12 @@
   }
 }
 
+@layer base {
+  body {
+    @apply dark:bg-gray-800 bg-white;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +31,50 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  transition: background-color 0.5s ease;
+}
+
+.dark body {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+.light body {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.dark-mode-toggle {
+  background-color: #f3f4f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #e5e7eb;
+}
+
+.dark .dark-mode-toggle {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+.dark .dark-mode-toggle:hover {
+  background-color: #374151;
+}
+
+.dark .dark-mode-toggle {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+.dark .dark-mode-toggle:hover {
+  background-color: #374151;
 }
 
 @layer utilities {
@@ -49,9 +100,8 @@ body {
   height: 100%;
 }
 
-/* Add responsive styles */
 .container {
-  max-width: 1600px; /* Adjust for 4K displays */
+  max-width: 1600px; 
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -159,7 +209,6 @@ body {
   }
 }
 
-/* Add styles for 4K displays */
 @media (min-width: 2560px) {
   .text-xl {
     font-size: 1.5rem;
@@ -186,7 +235,56 @@ body {
     padding-right: 2rem;
   }
 
+  .hover\:text-blue-500:hover {
+    color: #a2d5ab; 
+  }
+
   .prose {
     font-size: 1.25rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem; /* Tailwind's text-xl */
+    font-weight: 600; /* Tailwind's font-semibold */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s;
+  }
+
+
+  .section-heading:hover {
+    color: #a2d5ab; 
+  }
+
+  .citations-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 1rem; 
+  }
+
+  .citations-list li {
+    padding-left: 1rem; 
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .transition-all {
+    transition: all 0.5s ease;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .max-h-0 {
+    max-height: 0;
+  }
+
+  .max-h-screen {
+    max-height: 100vh;
   }
 }
