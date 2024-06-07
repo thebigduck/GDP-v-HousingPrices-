@@ -29,7 +29,7 @@ export default function Home() {
     </Script>
     <div className="flex flex-col items-center justify-center p-12 container mx-auto">
       <div className="w-full max-w-5xl flex flex-col items-center lg:flex-row lg:justify-between px-8">
-        <h1 className="text-4xl font-bold text-center mt-6 mb-4 lg:mb-0 lg:text-left lg:flex-1">
+        <h1 className="text-2xl font-bold text-center mt-6 mb-4 lg:mb-0 lg:text-left lg:flex-1">
           The Struggle for Homeownership: Economic Indicators and Their Personal Impact in an Era of Inflation
         </h1>
         <div className="flex items-center justify-center lg:justify-end lg:flex-1 space-x-4">
