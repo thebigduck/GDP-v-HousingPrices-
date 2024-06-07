@@ -1,3 +1,5 @@
+"use client";
+
 import React, { CSSProperties } from 'react';
 
 const iframeStyles: CSSProperties = {
@@ -21,5 +23,3 @@ const Debt: React.FC = () => {
 };
 
 export default Debt;
-
-
