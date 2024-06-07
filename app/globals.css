@@ -101,52 +101,47 @@ body {
 }
 
 .container {
-  max-width: 100%; 
+  width: 100%; /* Ensure container takes full width */
+  max-width: 100%; /* Ensure container does not exceed viewport width */
   margin: 0 auto;
   padding: 0 1rem;
 }
+
 @media (max-width: 1200px) {
   .container {
-    max-width: 100%;
     padding: 0 1rem;
   }
 }
 
 @media (max-width: 1024px) {
   .container {
-    max-width: 100%;
     padding: 0 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .container {
-    max-width: 100%;
     padding: 0 1rem;
   }
 }
 
 @media (max-width: 450px) {
   .container {
-    max-width: 100%;
     padding: 0 0.5rem;
   }
 }
 
 @media (max-width: 375px) {
   .container {
-    max-width: 100%;
     padding: 0 0.25rem;
   }
 }
 
 @media (max-width: 320px) {
   .container {
-    max-width: 100%;
     padding: 0 0.1rem;
   }
 }
-
 
 .flex {
   display: flex;
@@ -256,7 +251,6 @@ body {
     align-items: center;
     transition: color 0.3s;
   }
-
 
   .section-heading:hover {
     color: #a2d5ab; 
